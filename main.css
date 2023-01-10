@@ -1,0 +1,276 @@
+header{
+width: 100%;
+height: 90vh;
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) ,url(photopix/banner1.jpg);
+background-size: cover;
+}
+body {
+    margin: 0px;
+}
+nav{
+    width: 90%;
+    height: 80px;
+    background: white;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    font-family: sans-serif;
+    font-size: 2.5em;
+}
+.logo span{
+    color: coral;
+}
+.menu a{ 
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.menu a:first-child {
+    color: coral;
+}
+.menu a:hover{
+    color: coral;
+}
+.icon i {
+    font-size: 20px;
+}
+.icon i:hover{
+    color: coral;
+}
+.icon a{
+    text-decoration: none;
+    background: coral;
+    color: white;
+    padding: 10px 20px;
+    margin: 30px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.h-text{
+    max-width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+color: white;
+transform: translate(-50%,-50%);
+text-align: center;
+}
+#camera{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.h-text h1{
+    font-family: sans-serif;
+    font-size: 3em;
+    line-height: 1.5em;
+}
+.h-text input{
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 60%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.h-text button{
+    padding: 20px;
+    width: 30%;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: coral;
+    color: white;
+}
+.filter-gallery{
+    padding: 100px;
+}
+.portfolio-menu{
+text-align: center;
+margin-bottom: 20px;
+}
+.portfolio-menu ul li{
+list-style: none;
+display: inline-block;
+margin: 20px 0px;
+font-size: 20px;
+font-weight: bold;
+font-family: sans-serif;
+padding: 10px 20px;
+cursor: pointer;
+transition: 0.5s ease;
+text-align: center;
+}
+.portfolio-menu ul li:hover{
+    background-color: coral;
+    color: white;
+    border-radius: 8px;
+}
+li.active{
+    background-color: coral;
+    color: white;
+    border-radius: 8px;
+
+}
+.portfolio-item{
+    width: 100%;
+}
+.portfolio-item .item{
+height: 360px;
+width: 360px;
+float: left;
+margin-bottom: 20px;
+margin-right: 20px;
+
+}
+.portfolio-item .item img{
+height: 100%;
+width: 100%;
+border-radius: 8px;
+}
+.member{
+max-width: 100%;
+padding: 20px 100px;
+font-family: sans-serif;
+}
+.member-info{
+text-align: center;
+}
+.member-info h1{
+    font-family: sans-serif;
+    font-size:2.5em;
+}
+.member-info h1 span{
+    color: coral;
+}
+.member-card{
+    text-align: center;
+    width: 50%;
+    padding-top: 50px;
+    margin: auto;
+}
+.member-card p{
+    margin: 20px 0px;
+    line-height: 2em;
+}
+.member-card h2{
+    margin: 20px 0px;
+}
+.m-images{
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+    overflow: hidden;
+}
+.m-images img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+.m-images img:hover{
+    transform: scale(1.5);
+}
+footer{
+   
+    
+    padding: 50px 100px;
+    background-color: #262626;
+}
+.newsletter{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+border: 2px solid rgba(255, 255, 255, 0.219);
+color: white;
+}
+.newsletter >div{
+    flex-basis: 50%;
+}
+.ntext{
+    text-align: right;
+}
+.newsletter h2{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.newsletter p{
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.newsletter label{
+    position: relative;
+}
+.newsletter input{
+    padding: 20px;
+    width: 70%;
+    border: none;
+    border-radius: 8px;
+    font-family: sans-serif;
+    outline: none;
+}
+.newsletter button{
+    background-color: coral;
+    color: white;
+    padding: 20px;
+    border-radius: 0px 8px 8px 0px;
+    width: 30%;
+    position: absolute;
+    right: 0;
+    outline: none;
+    border: none;
+}
+.f-contact{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 3em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.233);
+}
+.f-contact >div{
+    flex-basis: 20%;
+}
+.f-contact p{
+    font-family: sans-serif;
+    line-height: 2em;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+}
+.f-contact p:hover{
+    color: white;
+}
+.f-contact h1{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.f-contact i{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    margin: 20px 5px ;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.f-contact i:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
